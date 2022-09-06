@@ -50,15 +50,14 @@ dev.off()
 file <- '04_model_raw_RData/single_LODO/02lasso/'
 model.data <- 'D000067877_Amplicon.genus_6.RData'
 model.adj1 <- get(load(paste0(file,model.data)))
-
-save(model.adj1,file='01_data/plot_data/FS1B.RData')
-model.adj1[["result"]]
+FS1B <- model.adj1[["result"]]
+save(FS1B,file='01_data/plot_data/FS1B.RData')
 p1 <- my_auc.heatmap(datas=model.adj1$result,models='lasso_adj_nc')
 
 
 model.adj2 <- get(load(paste0(file,'D015179_Metagenomics.species_7.RData')))
-
-save(model.adj2,file='01_data/plot_data/FS1C.RData')
+FS1C <- model.adj2[["result"]]
+save(FS1C,file='01_data/plot_data/FS1C.RData')
 p2 <- my_auc.heatmap(datas=model.adj2$result,models='lasso_adj_nc')
 
 ## FS1 D ----
