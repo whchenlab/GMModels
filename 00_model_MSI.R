@@ -1,6 +1,6 @@
 ### load model_FUN
 
-project_file <- '/mnt/raid7/limin/project/01_2022_GMModel_lm&liu'
+project_file <- ''
 setwd(project_file)
 {
   source('00_model_FUN/siamcat_models.R')
