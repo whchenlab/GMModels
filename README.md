@@ -26,7 +26,7 @@ Our goal with this work was to find determinants of reproducible gut microbiome 
 * _**04_model_raw_RData**_ contains a model sample .
   
 * _**Rscripts**_ Rscripts for modeling and plotting. 
-  * _F1.R~F5.R, FS1.R~FS8.R_  Plot Rscripts
+  * _F1.R-F5.R, FS1.R-FS8.R_  Plot Rscripts
   * _F0.R_ Prepare the data for plot
   * _00_model_MSI.R_ Intra-cohort and LODO modeling and LEfSe analysis
   * _01_CCM & SCM.R_ CCM and SCM modeling
@@ -119,7 +119,7 @@ _nproj_cutoff_ is the number of cohort that same feature appears in one disease.
 ## Expected Output
 
   * We have included the expected results from running CD dataset. This can be found in the 04_model_raw_RData/single_LODO/02lasso folder.
-  * Running CD dataset should take ~2 and ~6 minutes for intra-cohort when using a single core.
+  * Running CD dataset should take ~2 minutes for intra-cohort when using a single core.
   This was tested on linux Ubuntu 20.04.3
   * Intra-cohort modeling plot   
   ![image](02_figure/marker.svg)
