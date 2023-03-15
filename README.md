@@ -28,10 +28,10 @@ Our goal with this work was to find determinants of reproducible gut microbiome 
 * _**04_model_raw_RData**_ contains a model sample .
   
 * _**Rscripts**_ Rscripts for modeling and plotting. 
-  * _F1.R-F5.R, FS1.R-FS8.R_  Plot Rscripts
-  * _F0.R_ Prepare the data for plot
-  * _00_model_MSI.R_ Intra-cohort and LODO modeling and LEfSe analysis
-  * _01_CCM & SCM.R_ CCM and SCM modeling
+  * _F1.R-F5.R, FS1.R-FS8.R_,  Plot Rscripts
+  * _F0.R_, Prepare the data for plot
+  * _00_model_MSI.R_, Intra-cohort and LODO modeling and LEfSe analysis
+  * _01_CCM & SCM.R_, CCM and SCM modeling
 
 
 ## Software requirement
