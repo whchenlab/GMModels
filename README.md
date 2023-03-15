@@ -8,10 +8,12 @@ Our goal with this work was to find determinants of reproducible gut microbiome 
 
 ## Table of Contents
 
-- [Organization](#Organization)
-- [Software requirement](#Software-requirement)
-- [Running sample](#Running-sampleusage)
-- [Expected Output](#Expected-Output)
+- [Modeling based on gut microbiome abundance - GMModel](#modeling-based-on-gut-microbiome-abundance---gmmodel)
+  - [Table of Contents](#table-of-contents)
+  - [Organization](#organization)
+  - [Software requirement](#software-requirement)
+  - [Running sample](#running-sample)
+  - [Expected Output](#expected-output)
 
 
 ## Organization
@@ -118,7 +120,7 @@ _nproj_cutoff_ is the number of cohort that same feature appears in one disease.
 
 ## Expected Output
 
-  * We have included the expected results from running CD dataset. This can be found in the 04_model_raw_RData/single_LODO/02lasso folder.
+  * We have included the expected marker results from running CD dataset. This can be found in the 04_model_raw_RData/single_LODO/02lasso folder.
   * Running CD dataset should take ~2 minutes for intra-cohort when using a single core.
   This was tested on linux Ubuntu 20.04.3
   * Intra-cohort modeling plot   
