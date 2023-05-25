@@ -2,7 +2,7 @@
 
 The code and key intermediate files in this repository correspond to the following manuscript:
 
- _Li et al. Gut Microbes. Large-scale cross-cohort analysis identifies determinants of reproducible gut microbiome alterations._ [Reference click here](https://)
+ _Li et al. Gut Microbes. Performance of Gut Microbiome as an Independent Diagnostic Tool for 20 Diseases: Cross-Cohort Validation of Machine-Learning Classifiers._ [Reference click here](https://www.tandfonline.com/doi/full/10.1080/19490976.2023.2205386)
   
 Our goal with this work was to find determinants of reproducible gut microbiome alterations. We we systematically evaluated the cross-cohort performance of gut microbiome-based machine-learning classifiers for 20 diseases. 
 
